@@ -2,7 +2,7 @@ import cv2 as cv
 import numpy as np
 from PIL import ImageFont, ImageDraw, Image
 
-class CvPutJaText:
+class PutText:
     def __init__(self):
         pass
 
