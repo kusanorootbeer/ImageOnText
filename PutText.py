@@ -7,7 +7,7 @@ class PutText:
         pass
 
     @classmethod
-    def puttext(cls, cv_image, text, point, font_path, font_size, color=(0,0,0)):
+    def puttext(cls, cv_image, text, point, font_path, font_size, color):
         font = ImageFont.truetype(font_path, font_size)
 
         cv_rgb_image = cv.cvtColor(cv_image, cv.COLOR_BGR2RGB)
