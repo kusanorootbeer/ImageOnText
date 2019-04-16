@@ -17,6 +17,7 @@ class PutText:
         draw.text(point, text, fill=color, font=font)
 
         cv_rgb_result_image = np.asarray(pil_image)
-        cv_bgr_result_image = cv.cvtColor(cv_rgb_result_image, cv.COLOR_RGB2BGR)
+#        cv_bgr_result_image = cv.cvtColor(cv_rgb_result_image, cv.COLOR_RGB2BGR)
 
-        return cv_bgr_result_image
+        return cv_rgb_result_image
+#        return cv_bgr_result_image

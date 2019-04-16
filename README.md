@@ -9,7 +9,12 @@
         - [x] random length
         - [x] random letter
     - [x] random font
-- [ ] put text on images recursively 
-    - [ ] decide architecture of data
-- [ ] manage by parser
+- [x] put text on images recursively 
+    - [x] decide architecture of data
+- [x] manage by parser
     - [ ] number of recursive generating images
+
+### How to
+ python main.py --base_data_root
+
+ base_data_root : base images directory path , default prepare_images
